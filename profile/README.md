@@ -1,12 +1,78 @@
-## Hi there 👋
+# ✈️ 투어메이트 (TourMate)
 
-<!--
+## 2-1. 서비스명  
+**올인원 여행 서비스 ‘투어메이트(TourMate)’**
 
-**Here are some ideas to get you started:**
+---
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## 2-2. 서비스 유형  
+📱 앱 서비스
+
+---
+
+## 2-3. 서비스 개요  
+한국관광공사의 **국문관광정보 API**와 **카카오 API**의 위치 기반 서비스를 연계하여,  
+여행 일정 계획 ✍️ · 동행 매칭 👥 · 여행 기록 📸 기능을 **통합 제공**하는 올인원 여행 앱 서비스
+
+---
+
+## 3-1. 서비스 개발 배경  
+여행이 일상화된 시대에, 사람들이 여행을 통해 얻고자 하는 **궁극적인 목적은 “행복 추구”**입니다.  
+
+여행의 행복은 단순히 여행지에서의 경험에 그치지 않고,  
+- **여행 전** : 설렘과 기대  
+- **여행 중** : 경험과 순간의 즐거움  
+- **여행 후** : 회상에서 오는 여운  
+
+까지 모두 포함됩니다.  
+
+투어메이트는  
+여행의 **시작(계획 단계)**부터  
+여행 **중(동행 & 기록)**,  
+그리고 **여행 후(회고)**까지  
+
+각 단계에 적합한 기능을 제공하여  
+**여행의 모든 순간 속 행복감을 극대화하고 지속**할 수 있도록 고안된 서비스입니다.  
+
+> 📌 서비스명은 **Tour(여행) + Mate(짝꿍)** 의 합성어입니다.  
+
+---
+
+## 3-2. 서비스 주 이용대상  
+🎯 **취향 기반 여행 문화를 선도하는 2030 MZ세대**
+
+---
+
+## 📚 FAQ
+
+```javascript
+const faqsData = [
+  {
+    id: '1',
+    category: '계정',
+    question: '비밀번호를 잊어버렸어요. 어떻게 재설정하나요?',
+    answer: '비밀번호 찾기 기능은 현재 개발 중이에요. 관리자에게 문의 남겨주시면 신속한 도움 드리겠습니다.\n\n이용에 불편을 드려 진심으로 죄송합니다.',
+    date: '2025.09.07',
+  },
+  {
+    id: '2',
+    category: '앱 기능',
+    question: '엽서는 어떻게 만들고 공유할 수 있나요?',
+    answer: '여행 엽서는 사용자가 자신의 여행 경험을 사진과 글로 기록하고 공유하는 기능이에요.\n프로필 탭에서 엽서 폴더 및 엽서 만들기를 통해 엽서를 만들 수 있어요.\n생성된 엽서에 대해 공개 설정 기능을 통해 다른 사용자들과 공유할 수 있어요.',
+    date: '2025.09.07',
+  },
+  {
+    id: '3',
+    category: '계정',
+    question: '회원가입은 어떻게 하나요?',
+    answer: '로그인 화면에서 "회원가입" 버튼을 통해 이메일과 비밀번호로 가입할 수 있어요.',
+    date: '2025.09.07',
+  },
+  {
+    id: '4',
+    category: '앱 기능',
+    question: 'TourMate는 어떤 서비스인가요?',
+    answer: 'TourMate는 여행 동반자를 찾고, 여행 일정을 공유하며, 여행 기록을 남길 수 있는 서비스예요.',
+    date: '2025.09.07',
+  },
+];
